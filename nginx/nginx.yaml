@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        image: stacksimplify/dockerintro-springboot-helloworld-rest-api:1.0.0-RELEASE
         ports:
         - containerPort: 80
